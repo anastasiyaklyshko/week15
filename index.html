@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body id="backgcolor">
+    <div>
+        <h4>Вопрос 3 - Выберите тему:</h4>
+        <select id="backgroundchange" onchange="show()">
+            <option value="dark">Тёмная тема</option>
+            <option value="white">Светлая тема</option>
+            <option value="bright">Яркая тема</option>
+        </select>
+    </div> 
+        <div>
+    <h4>Вопрос 1 - Калькулятор</h4>
+    <button onclick="calcDiv()">Деление</button>
+    </div>
+        
+    <h4>Вопрос 2 - Создание почтового ящика</h4>
+    <h5>Имя</h5>
+        <label for="name"></label> 
+    <input type="text" id="name"/>
+    <h5>Фамилия</h5> 
+        <label for="lastname"></label> 
+            <input type="text" id="lastname"/>
+    <h5>Дата рождения (ДД.ММ.ГГГГ)</h5> 
+        <label for="birthday"></label> 
+    <input type="text" id="birthday"/>
+     <h5>Пол</h5>
+     <label for="female"></label> 
+                <label for="female"></label> 
+                <input type="radio" id =female name="sex"/> Женский<br/>
+            
+                <label for="male"></label> 
+                <input type="radio" id =male name="sex" /> Мужской <br/>
+            
+    <h5>Имя ящика</h5>
+    <label for="box"></label> 
+            <input type="text" id="box"/>
+        <select id="namebox">
+            <option value="mail">@mail.ru</option>
+            <option value="internet">@internet.ru</option>
+            <option value="bk">@bk.ru</option>
+            <option value="inbox">@inbox.ru</option>
+            <option value="list">@list.ru</option>
+        </select> 
+                    <h5>Пароль</h5> 
+        <label for="code"></label> 
+            <input type="text" id="code"/>
+            <h5>Телефон (+7...)</h5> 
+        <label for="phone"></label> 
+            <input type="text" id="phone">
+        <div><button onclick="check();">Создать</button></div>
+        
+        <script src="/index.js"></script> 
+</body>
+</html>
