@@ -34,7 +34,7 @@ if (result1 =='') {
 } else if (result2=='') {
     alert ("Нужно заполнить Фамилию");
 } else if (result3=='') {
-    alert ("Нужно заполнить Дату Рождения");
+    aler ("Нужно заполнить Дату Рождения");
 } else if (result4==false&&result5==false)  {
     alert ("Нужно выбрать пол");
 } else if (result6=='') {
